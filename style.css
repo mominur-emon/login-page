@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+/* main background container */
+.background-container {
+  background: linear-gradient(to right, #f5f5f5 50%, #f5804f 50%);
+  width: auto;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+/*left image */
+#image-one {
+  position: absolute;
+  width: 480px;
+  height: 370px;
+  left: 0;
+  bottom: 0;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+/*right image */
+#image-two {
+  position: absolute;
+  width: 300px;
+  height: 260px;
+  right: 0;
+  bottom: 0;
+}
+
+/* login card style start*/
+/*login card*/
+.login-card {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  height: 400px;
+  background-color: #ffffff;
+  box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.3);
+  padding: 10px 20px;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+/*login text*/
+#login-text {
+  text-align: center;
+  color: #f5804f;
+  padding-bottom: 25px;
+  font-weight: 600;
+}
+
+input {
+  border: 1px solid #f5804f;
+  outline: none;
+  border-radius: 7px;
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  caret-color: #f5804f;
+}
+
+#email {
+  margin-bottom: 5px;
+}
+#email h5 {
+  padding-bottom: 5px;
+  font-weight: 600;
+}
+#password h5 {
+  padding-bottom: 5px;
+  font-weight: 600;
+}
+#password p {
+  padding-top: 5px;
+  font-size: 10px;
+}
+
+/*login button*/
+#login-btn {
+  background-color: #f5804f;
+  border: none;
+  height: 30px;
+  border-radius: 7px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/*paragraph text login card area  */
+.login-card p {
+  color: #81442a;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+.login-card p span {
+  color: #f5804f;
+  cursor: pointer;
+}
+
+/*paragrap text below login button*/
+#account-text {
+  padding-top: 4px;
+  font-size: 12px;
+  text-align: center;
+}
+
+/*admin member container */
+#admin-member-btn {
+  display: flex;
+  justify-content: space-between;
+}
+/*admin member button */
+.white-btn {
+  padding: 5px 33px;
+  border: 1px solid #f5804f;
+  background-color: #ffffff;
+  border-radius: 7px;
+  cursor: pointer;
+  color: #f5804f;
+  font-weight: 500;
+}
